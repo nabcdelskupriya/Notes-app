@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:background="@drawable/bottom_backfile"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Copy Link"
+        android:drawableLeft="@drawable/ic_baseline_link_24"
+        android:drawablePadding="5dp"
+        android:textColor="@android:color/black"
+        android:id="@+id/copy_op"
+        android:textSize="20sp"
+        android:padding="10dp"/>
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Forward "
+        android:drawableLeft="@drawable/ic_baseline_share_24"
+        android:drawablePadding="5dp"
+        android:textColor="@android:color/black"
+        android:id="@+id/share_op"
+        android:textSize="20sp"
+        android:padding="10dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Download"
+        android:drawableLeft="@drawable/ic_baseline_arrow_downward_24"
+        android:drawablePadding="5dp"
+        android:textColor="@android:color/black"
+        android:id="@+id/download_op"
+        android:textSize="20sp"
+        android:padding="10dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Edit"
+        android:drawableLeft="@drawable/ic_baseline_edit_24"
+        android:drawablePadding="5dp"
+        android:textColor="@android:color/black"
+        android:id="@+id/edit_op"
+        android:textSize="20sp"
+        android:padding="10dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        android:drawableLeft="@drawable/ic_baseline_delete_24"
+        android:drawablePadding="5dp"
+        android:textColor="@android:color/holo_red_dark"
+        android:id="@+id/delete_op"
+        android:textSize="20sp"
+        android:padding="10dp"/>
+
+</LinearLayout>
